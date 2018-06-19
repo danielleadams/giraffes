@@ -1,4 +1,5 @@
 {
+  "_comment": "hello",
   "name": "zoo",
   "addons": [
     "heroku-postgresql"
