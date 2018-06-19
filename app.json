@@ -1,4 +1,5 @@
 {
+  "_hi": "danielle",
   "name": "zoo",
   "addons": [
     "heroku-postgresql"
