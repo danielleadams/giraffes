@@ -4,7 +4,8 @@
     "heroku-postgresql"
   ],
   "scripts": {
-    "test": "bin/rails test && bin/rails test:system"
+    "test": "bin/rails test && bin/rails test:system",
+    "pr-predestroy": "bin/pr-predestroy"
   },
   "stack": "cedar-14",
   "environments": {
