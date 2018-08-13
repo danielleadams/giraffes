@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Error!" 1>&2
+exit 125
