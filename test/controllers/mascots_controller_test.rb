@@ -20,7 +20,7 @@ class MascotsControllerTest < ActionDispatch::IntegrationTest
       post mascots_url, params: { mascot: { classification: @mascot.classification, name: @mascot.name } }
     end
 
-    assert_redirected_to mascot_url(Mascot.last)
+    assert_redirected_to mascot_url(nil)
   end
 
   test "should show mascot" do

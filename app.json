@@ -4,7 +4,8 @@
     "heroku-postgresql"
   ],
   "scripts": {
-    "test": "bin/rails test && bin/rails test:system"
+    "test": "bin/rails test && bin/rails test:system",
+    "postdeploy": "bundle exec rake heroku:postdeploy --trace"
   },
   "stack": "cedar-14",
   "environments": {
