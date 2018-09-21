@@ -5,7 +5,7 @@
   ],
   "scripts": {
     "test": "bin/rails test && bin/rails test:system",
-    "postdeploy": "bundle exec rake heroku:postdeploy --trace"
+    "postdeploy": "bin/postdeploy --trace"
   },
   "stack": "cedar-14",
   "environments": {
