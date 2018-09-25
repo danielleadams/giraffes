@@ -5,7 +5,7 @@
   ],
   "scripts": {
     "test": "bin/rails test && bin/rails test:system",
-    "postdeploy": "bin/postdeploy --trace"
+    "postdeploy": "bin/postdeploy-1 --trace"
   },
   "stack": "cedar-14",
   "environments": {
