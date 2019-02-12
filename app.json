@@ -4,6 +4,8 @@
     "heroku-postgresql"
   ],
   "scripts": {
+    "release": "bin/release",
+    "postdeploy": "echo post deploy",
     "test": "bin/rails test && bin/rails test:system"
   },
   "stack": "cedar-14",
