@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+class Node
+  attr_reader :value
+
+  def initialize(value)
+    @value = value
+    puts value
+  end
+
+  def create_children
+    @child = Node.new(value + 1)
+    @child.create_children
+  end
+end
+
+loop do
+  head = Node.new(0)
+  head.create_children
+end
